@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STYVIA</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Poppins&display=swap" rel="stylesheet" />
+
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+<nav class="navbar">
+  <h1>STYVIA</h1>
+
+  <div class="navbar-links">
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collections</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="menu-toggle" onclick="shownavbar()">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</nav>
+
+
+<div class="side-navbar">
+  <div class="close-btn">
+    <i class="fa-solid fa-xmark" onclick="closenavbar()"></i>
+  </div>
+
+  <a href="index.html">Home</a>
+  <a href="collection.html">Collections</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<div class="product-section" >
+<form class="product-search">
+<input type="text" id="search" placeholder="Search">
+<i class="fa-solid fa-magnifying-glass"></i>
+</form>
+
+<div class="products" id="product">
+<div class="products-box">
+<img src="img\formal shirt.jpg" alt="" width="200px" height="300px">
+<p>Formal Shirt</p>
+</div>
+<div class="products-box">
+<img src="img\beachwear.jpg" alt="" width="200px" height="300px">
+<p>Beach Wear</p>
+</div>
+<div class="products-box">
+<img src="img\suit1.jpg" alt="" width="200px" height="300px">
+<p>Black Suit</p>
+</div>
+<div class="products-box">
+<img src="img\t shirt.jpg" alt="" width="200px" height="300px">
+<p>T-shirt</p>
+</div>
+<div class="products-box">
+<img src="img/white  suit.jpg" alt="" width="200px" height="300px">
+<p>White Suit</p>
+</div>
+<div class="products-box">
+<img src="img/denimjacket.jpg" alt="" width="200px" height="300px">
+<p>Denim Jacket</p>
+</div>
+<div class="products-box">
+<img src="img\pants.jpg" alt="" width="200px" height="300px">
+<p>Jeans Pant </p>
+</div>
+<div class="products-box">
+<img src="img\creampant.jpg" alt="" width="200px" height="300px">
+<p>Formal Pant</p>
+</div>
+</div>
+</div>
+
+<div class="footer">
+  <div class="footer-container">
+    <div class="footer-box-1">
+      <h2 class="headingText">STYVIA</h2>
+      <p>
+        Styvia is a modern fashion brand focused on quality, comfort, and timeless design, bringing carefully curated styles for everyday wear.
+      </p>
+    <div class="footer-icon-container">
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-facebook-f"></i>
+</div>
+
+    </div>
+  </div>
+<p>© 2025 Styvia.com</p>
+
+</div>
+
+
+<script src="collection.js"></script>
+<Script src="script.js"></Script>
+</body>
+</html>

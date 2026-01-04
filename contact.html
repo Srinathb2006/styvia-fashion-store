@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STYVIA</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Poppins&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1>STYVIA</h1>
+
+  <div class="navbar-links">
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collections</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="menu-toggle" onclick="shownavbar()">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</nav>
+
+<!-- SIDE NAVBAR -->
+<div class="side-navbar">
+  <div class="close-btn">
+    <i class="fa-solid fa-xmark" onclick="closenavbar()"></i>
+  </div>
+
+  <a href="index.html">Home</a>
+  <a href="collection.html">Collections</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!--contact-->
+<div class="contact">
+    <h3 style="color: white;">Contact Us</h3>
+    <div class="name">
+        <p style="color: white;">Name:</p>
+        <input type="text" id="name">
+    </div>
+    <div class="email">
+        <p style="color: white;">Email:</p>
+        <input type="text" id="number">
+    </div>
+    <div class="message">
+        <p style="color: white;">Message:</p>
+        <textarea></textarea>
+        
+        <div class="submit"> <button>Submit</button></div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+  <div class="footer-container">
+    <div class="footer-box-1">
+      <h2 class="headingText">STYVIA</h2>
+      <p>
+        Styvia is a modern fashion brand focused on quality, comfort, and timeless design, bringing carefully curated styles for everyday wear.
+      </p>
+    <div class="footer-icon-container">
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-facebook-f"></i>
+</div>
+
+    </div>
+  </div>
+<p>© 2025 Styvia.com</p>
+
+</div>
+
+<!-- JS -->
+<script src="collection.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
